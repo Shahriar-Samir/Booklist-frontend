@@ -29,7 +29,7 @@ export const EditBook = () => {
       title, author ,publishYear 
     }
     axios
-    .put(`http://localhost:5000/books/${id}`, data)
+    .put(`https://book-list-backend-y9vk.onrender.com/books/${id}`, data)
     .then(()=>{
       navigate('/')
     })
