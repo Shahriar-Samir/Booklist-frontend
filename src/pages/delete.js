@@ -9,7 +9,7 @@ export const Deletebook = () => {
   const navigate = useNavigate()
 
   function dataDelete(){
-    axios.defaults.withCredentials = true
+  
     axios
     .delete(`https://book-list-backend-y9vk.onrender.com/books/${id}`)
     .then(()=>{
