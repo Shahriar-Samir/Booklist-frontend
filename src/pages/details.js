@@ -10,7 +10,7 @@ export const ShowBook = () => {
 
      React.useEffect(()=>{
       axios
-      .get(`http://localhost:5000/books/${id}`)
+      .get(`https://book-list-backend-y9vk.onrender.com/books/${id}`)
       .then((res)=>{
         setDetails(res.data)
       })
