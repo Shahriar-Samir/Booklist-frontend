@@ -11,7 +11,7 @@ export default function Home(){
        
       React.useEffect(()=>{
           axios
-          .get('http://localhost:5000/books')
+          .get('https://book-list-backend-y9vk.onrender.com/books')
           .then((res)=>{
             setApi(res.data)
           })
