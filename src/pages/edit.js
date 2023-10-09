@@ -10,7 +10,7 @@ export const EditBook = () => {
   const [publishYear ,setPublishYear] =React.useState('')
    
    useEffect(()=>{
-     axios.defaults.withCredentials = true
+     
       axios
       .get(`https://book-list-backend-y9vk.onrender.com/books/${id}`)
       .then((res)=>{
@@ -29,7 +29,7 @@ export const EditBook = () => {
     const data = {
       title, author ,publishYear 
     }
-     axios.defaults.withCredentials = true
+    
     axios
     .put(`https://book-list-backend-y9vk.onrender.com/books/${id}`, data)
     .then(()=>{
