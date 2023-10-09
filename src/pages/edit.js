@@ -10,6 +10,7 @@ export const EditBook = () => {
   const [publishYear ,setPublishYear] =React.useState('')
    
    useEffect(()=>{
+     axios.defaults.withCredentials = true
       axios
       .get(`https://book-list-backend-y9vk.onrender.com/books/${id}`)
       .then((res)=>{
