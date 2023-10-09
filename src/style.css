@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(77, 77, 77) !important;
+}
+
+
+#root{
+    height: 100vh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* homepage */
+
+.homepage{
+    width: 90%;
+    height: 90%;
+}
+
+.homepage i{
+    cursor: pointer;
+}
+
+.homepage i:hover{
+    background-color: green !important;
+    color: white !important;
+}
+.homepage i:active{
+    background-color: rgb(0, 131, 0) !important;
+    border: rgb(0, 151, 0) 1px solid  !important;
+}
+
+.homepage  table th ,td{
+    border: 1px solid black !important;
+}
+
+.tablebox{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.homepage table th,td{
+   padding-block: 1em !important;
+}
