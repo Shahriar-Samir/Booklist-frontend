@@ -12,7 +12,7 @@ export const EditBook = () => {
    useEffect(()=>{
      
       axios
-      .get(`https://book-list-backend-y9vk.onrender.com/books/${id}`)
+      .get(`https://book-list-backend-dadx.onrender.com/books/${id}`)
       .then((res)=>{
          setTitle(res.data[0].title)
          setAuthor(res.data[0].author)
