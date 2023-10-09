@@ -10,7 +10,7 @@ export const Deletebook = () => {
 
   function dataDelete(){
     axios
-    .delete(`http://localhost:5000/books/${id}`)
+    .delete(`https://book-list-backend-y9vk.onrender.com/books/${id}`)
     .then(()=>{
       navigate('/')
     })
