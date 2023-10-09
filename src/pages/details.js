@@ -11,7 +11,7 @@ export const ShowBook = () => {
      React.useEffect(()=>{
       
       axios
-      .get(`https://book-list-backend-y9vk.onrender.com/books/${id}`)
+      .get(`https://book-list-backend-dadx.onrender.com/books/${id}`)
       .then((res)=>{
         setDetails(res.data)
       })
