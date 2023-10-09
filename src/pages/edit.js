@@ -31,7 +31,7 @@ export const EditBook = () => {
     }
     
     axios
-    .put(`https://book-list-backend-y9vk.onrender.com/books/${id}`, data)
+    .put(`https://book-list-backend-dadx.onrender.com/books/${id}`, data)
     .then(()=>{
       navigate('/')
     })
