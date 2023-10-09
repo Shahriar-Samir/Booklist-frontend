@@ -10,7 +10,7 @@ export default function Home(){
     const [getApi , setApi] = React.useState([])
        
       React.useEffect(()=>{
-          axios.defaults.withCredentials = true
+          
           axios
           .get('https://book-list-backend-dadx.onrender.com/books')
           .then((res)=>{
